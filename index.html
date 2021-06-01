@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--A meta viewport permite que a página seja exibida em qualquer navegador ou dispositivo mantendo a visualização adequada ao tamanho da tela proporcionalmente.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--O texto informado dentro das aspas após o "content" abaixo é que é lido pelos buscadores como o Google.-->
+    <meta name="description"
+        content="Esta página tem por objetivo reunir as principais tags html e sua utilização em páginas web.">
+    <!--Usamos a metatag "noindex" quando não queremos que a página seja exibida em um sute de buscas. Exemplo: quando a página que possuem dados pessoais-->
+    <meta name="robots" content="noindex">
+    <title>HTML Básico - códigos html</title>
+    <!--Usamos o nofollow para que os buscadores não associem os links que estão nas nossa páginas como sendo nossas. Exemplo: os links que os visitantes inserem nos comentários.-->
+    <meta name="robots" content="nofollow">
+
+    <!--Dá para colocar o conteúdo do content dentro das aspas, separado por vírgula. Exemplo:
+    <meta name="robots" content="nofollow, noindex">-->
+
+    <!--Já vou deixar os códigos abaixo prontos esperando receber um arquivo para o css e o javascript-->
+    <link rel="stylesheet" type="" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <!--conteúdo-->
+    <div>
+        <h1>Titulo 1</h1>
+        <h2>Titulo 2</h2>
+        <h3>Titulo 3</h3>
+        <h4>Titulo 4</h4>
+        <h5>Titulo 5</h5>
+        <h6>Titulo 6</h6>
+        <hr>
+        <p id="paragrafo1">Primeiro parágrafo.</p>
+        <p>Segundo parágrafo</p>
+        <p>Terceiro parágrafo.</p>
+        <p>Quarto paráfrafo.</p>
+        <hr>
+    </div>
+    <div>
+        <img src="img/crostinis.jpg" alt="Testo Alternativo" style="height: 200px; width: 200px;" title="Crostinis">
+
+        <figure>
+            <img src="https://s.glbimg.com/po/tt/f/original/2011/10/18/jogo-de-xadrez.jpg" alt="Imagem">
+
+            <figcaption>jogo-de-xadrez</figcaption>
+        </figure>
+        <hr>
+    </div>
+    <div>
+        <a href="https://s.glbimg.com/po/tt/f/original/2011/10/18/jogo-de-xadrez.jpg">link para o tabuleiro de
+            xadrez</a>
+        <br>
+        <p></p>
+        <a href="#paragrafo1">ir para o paragrafo 1</a>
+        <p></p>
+        <hr>
+    </div>
+    <div>
+        <table border="">
+            <thead>
+                <tr>
+                    <th>Cabeçalho coluna 1</th>
+                    <th>Cabeçalho coluna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>l1, c1</td>
+                    <td>l1, c2</td>
+                </tr>
+                <tr>
+                    <td>l2, c1</td>
+                    <td>l2, c2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Rodapé coluna 1</td>
+                    <td>Rodapé coluna 2</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+    </div>
+    <div>
+        <p>Lista ordenada</p>
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+        <p>Lista não ordenada</p>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        <p>lista de definição</p>
+        <dl>
+            <dt>Título 1</dt>
+            <dd>Definição 1</dd>
+            <dt>Titulo 2</dt>
+            <dd>Definição 2</dd>
+            <dt>Titulo 3</dt>
+            <dd>Definição 3</dd>
+        </dl>
+        <p></p>
+        <hr>
+    </div>
+    <div>
+        <p>Formulários</p>
+        <form action="" method="">
+            <label for="">Digite aqui:</label>
+            <input type="text" placeholder="Digite aqui"> <br>
+            <br>
+            <label for="">checkbox</label> <br>
+            <input type="checkbox">Check 1 <br>
+            <input type="checkbox">Check 2 <br>
+            <input type="checkbox">Check 3 <br>
+            <br>
+            <label for="">Radio</label> <br>
+            <input type="radio">Radio button <br>
+            <p></p>
+            <label for="">Range</label>
+            <input type="range"> <br />
+            <p></p>
+            <label for="">Enviar</label>
+            <input type="submit" value="Enviar">
+        </form>
+        <hr>
+    </div>
+    <div>
+        <p>Formatação de texto</p>
+        <p>
+            Tags usadas para formatar texto. Para <b>negrito</b> usamos a letra "b" ou a palavra
+            <strong>"strong"</strong>.
+        </p>
+        <p>
+            Para itálico usamos <i>letra "i"</i> e para dar ênfase usamos a <em>tag "em"</em>.
+        </p>
+        <p>
+            Para <sup>sobrescrito</sup> e <sub>subscrito</sub>.
+        </p>
+        <p>
+            Trecho <ins>incluído</ins> e trecho <del>excluído</del>.
+        </p>
+        <p>
+            Podemos usar <small>para textos menores que o padrão.</small>
+        </p>
+        <p>
+            E finalmente, usamos <mark>para destacar texto.</mark>
+        </p>
+        <hr>
+    </div>
+    <div>
+        <p>
+            <audio controls src="">
+                Podemos inserir um podcast (mp3).
+            </audio>
+        </p>
+        <hr>
+    </div>
+    <div>
+        <p>
+            <video src="" width="400" height="400" controls>Da mesma forma que o audio.</video>
+        </p>
+        <hr>
+    </div>
+    <p>Testando a tag "div".</p>
+    <form action="" method="">
+        <div>
+            <label for="">Digite aqui 1:</label>
+            <input type="text" placeholder="Digite aqui 1">
+            <label for="">Digite aqui 2:</label>
+            <input type="text" placeholder="Digite aqui 2">
+        </div>
+        <div>
+            <label for="">Digite aqui 3:</label>
+            <input type="text" placeholder="Digite aqui 3">
+            <label for="">Digite aqui 4:</label>
+            <input type="text" placeholder="Digite aqui 4">
+        </div>
+    </form>
+
+
+
+</body>
+
+</html>
